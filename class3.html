@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+
+/* Style the header */
+header {
+  background-color:#FAEBD7 ;
+  <img src="imgage2.jpg" width="50" height="60">
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color:#F08080;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5F9EA0;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+/
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 200%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>practice</h2>
+<p style="font-family:'Courier New'">amader chotto prochesta</p>
+<p style="color:blue;">hasan vai er dreisti akorshon krchi🥰 ,,,aj sefat vai are ami eksathe kaj krchi😎 .baki 2jon onno kaje busy😑.asa kori hasan vaiyar amdr specialy amr kaj valo lgbe😇.</p>
+
+<header>
+  <image src="image/image2.jpg"  width="70" height="70">
+  <h3 style="background-color:black;">Today Our Practice</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">anu</a></li>
+      <li><a href="#">hasan</a></li>
+      <li><a href="#">sami</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1s>anu</h1>
+    <p>cool girl.</p>
+    <h2>hsan</h2>
+    <p>good teacher.</p>
+    <h3>sami</h3>
+    <p>cute girl</p>
+    <body style="background-color:pink;">
+  </article>
+</section>
+
+<footer>
+  <h1>Footer</h1>
+<p style="color:blue;">ananna</p>
+
+</footer>
+
+</body>
+</html>
+
